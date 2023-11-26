@@ -1,0 +1,205 @@
+/* CSS of navbar */
+nav {
+  background-color: white;
+  padding: 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav button {
+  background-color: #272056;
+  color: white;
+  font-size: 1.0em;
+  border-radius: 25px;
+  margin-right: 40px;
+  padding: 5px 30px;
+  cursor: pointer;
+}
+h2{
+  margin-left: 30px;
+  color: #132C66;
+}
+
+/* CSS of landing page */
+.main-page {
+  background-color: #132C66;
+  padding: 20px;
+}
+.images{
+  display: flex;
+  justify-content: space-between;
+}
+.images1{
+  display: flex;
+  align-items: center;
+}
+.left-image{
+  width: 150px;
+  height: 80px;
+  
+}
+.right-image{
+  padding: 0px;
+}
+.bottom-image{
+  width: 300px;
+  height: 550px;
+  margin-left: -15px;
+  margin-top: -40px;
+}
+.content{
+  text-align: center;
+  font-family: poppins;
+  justify-content: space-between; 
+  margin-top: -180px;
+  align-items: center;
+  text-align: center;
+  padding: 10px 200px;
+  color: white;
+}
+.content h1{
+  font-weight: lighter;
+  font-size: 42px;
+}
+.content h3{
+  font-weight: lighter;
+}
+.svg-container {
+  border: 1px solid white;
+  height: 80px;
+  width: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+button {
+  background-color: rgb(208, 84, 1);
+  color: white;
+  font-size: 1.0em;
+  border-radius: 5px;
+  margin-top: 20px;
+  padding: 6px 20px;
+  cursor: pointer;
+}
+
+svg {
+  margin: 10px 10px;
+}
+/* CSS of main page cards*/
+
+.cards{
+  background-color: #132C66;
+}
+.links{
+  display: flex;
+  justify-content:space-around;
+}
+.links a{
+  text-decoration: none;
+  color: white;
+  font-size: 24px;
+  font-family: poppins;
+}
+.links a:hover{
+  text-decoration: underline;
+}
+
+
+/* CSS of Footer*/
+.footer{
+  background-color: #132C66;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  color: white;
+}
+.features li{
+  text-decoration:underline;
+}
+.footer-image {
+  width: 30px; 
+  height: 50px;
+}
+
+.features {
+  flex-grow: 5; 
+  margin: 0 0px; 
+}
+
+.features h3,
+.social-media h3 {
+  margin-bottom: 20px; 
+  font-size: 24px;
+  margin-right: 340px;
+}
+
+.features ul {
+  list-style: none;
+  padding: 0;
+}
+
+.features li {
+  margin-bottom: 5px; 
+}
+
+.features a,
+.social-media a {
+  text-decoration: none;
+  color: white;
+}
+
+.social-media {
+  text-align: right;
+}
+.icons{
+  display: flex;
+}
+
+
+/*Map Component*/
+.map-image {
+  width: 100%; 
+  max-width: 100%; 
+  height: auto; 
+  display: block; 
+  margin: 0px auto; 
+}
+.box {
+  margin: 30px 150px;
+  width: 80%;
+  height: 600px;
+  background-color: rgba(238, 116, 34, 0.22);
+}
+
+.directions{
+  display: flex;
+  justify-content:space-around;
+}
+.directions a{
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+  font-family: poppins;
+}
+.directions a:hover{
+  text-decoration: underline;
+}
+.box h2{
+  font-family: poppins;
+  text-align: center;
+  color: black;
+  padding: 40px 0px;  
+  font-size: 36px;
+  font-weight: lighter;
+}
+.line{
+  border-bottom: solid 2px #504f4e;
+  margin: 10px 60px;
+}
+.line1{
+  border-bottom: solid 2px #f7f4f2;
+  margin: 10px 60px;
+}
+
